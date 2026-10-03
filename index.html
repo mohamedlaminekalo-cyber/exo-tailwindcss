@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique En Ligne MOMO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+  <!-- En-tête / Navbar -->
+  <header class="sticky top-0 z-50 bg-white shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
+      <div class="text-2xl font-bold text-slate-800">
+        KAMOL GROUP
+      </div>
+      <nav class="space-x-6">
+        <a href="#accueil" class="text-gray-600 hover:text-blue-600 font-medium transition">Accueil</a>
+        <a href="#produits" class="text-gray-600 hover:text-blue-600 font-medium transition">Produits</a>
+        <a href="#contact" class="text-gray-600 hover:text-blue-600 font-medium transition">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Section Hero -->
+  <section id="accueil" class="relative bg-slate-900 text-white py-24 px-4 text-center">
+    <div class="max-w-3xl mx-auto">
+      <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight mb-4">
+        KAMOL GROUP, Vente de briques et materiaux de constructions
+      </h1>
+      <p class="text-lg sm:text-xl text-gray-300 mb-8">
+        DECOUVREZ NOS PRODUITS
+    </p>
+      <a href="#produits" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition transform hover:-translate-y-0.5">
+        Explorer le catalogue
+      </a>
+    </div>
+  </section>
+
+  <!-- Section Produits -->
+  <section id="produits" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <h2 class="text-3xl font-bold text-center text-slate-800 mb-12">
+      Nos Produits Populaires
+    </h2>
+    
+    <!-- Grille Responsive : 1 col sur mobile, 2 cols sur tablette, 4 cols sur écran PC -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      
+      <!-- Carte Produit 1 -->
+      <div class="bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden text-center p-4 transition duration-300 hover:shadow-lg hover:-translate-y-1">
+        <img src="image/brique.jfif" alt="Produit 1" class="w-full h-48 object-cover rounded-md mb-4">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Briques</h3>
+        <p class="text-lg font-bold text-red-500 mb-4">450FR</p>
+        <button class="w-full bg-emerald-500 hover:bg-emerald-600 text-white font-medium py-2 rounded-lg transition">
+          Acheter
+        </button>
+      </div>
+
+      <!-- Carte Produit 2 -->
+      <div class="bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden text-center p-4 transition duration-300 hover:shadow-lg hover:-translate-y-1">
+        <img src="image/sable.jfif" alt="Produit 2" class="w-full h-48 object-cover rounded-md mb-4">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Sable</h3>
+        <p class="text-lg font-bold text-red-500 mb-4">30000 FR</p>
+        <button class="w-full bg-emerald-500 hover:bg-emerald-600 text-white font-medium py-2 rounded-lg transition">
+          Acheter
+        </button>
+      </div>
+
+      <!-- Carte Produit 3 -->
+      <div class="bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden text-center p-4 transition duration-300 hover:shadow-lg hover:-translate-y-1">
+        <img src="image/gravier.jfif" alt="Produit 3" class="w-full h-48 object-cover rounded-md mb-4">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Produit 3</h3>
+        <p class="text-lg font-bold text-red-500 mb-4">50000 FR</p>
+        <button class="w-full bg-emerald-500 hover:bg-emerald-600 text-white font-medium py-2 rounded-lg transition">
+          Acheter
+        </button>
+      </div>
+
+      <!-- Carte Produit 4 -->
+      <div class="bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden text-center p-4 transition duration-300 hover:shadow-lg hover:-translate-y-1">
+        <img src="image/PAVE.jfif" alt="Produit 4" class="w-full h-48 object-cover rounded-md mb-4">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Pave</h3>
+        <p class="text-lg font-bold text-red-500 mb-4">2000 FR/m2</p>
+        <button class="w-full bg-emerald-500 hover:bg-emerald-600 text-white font-medium py-2 rounded-lg transition">
+          Acheter
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Pied de page -->
+  <footer id="contact" class="bg-slate-900 text-white text-center py-8 border-t border-slate-800">
+    <p class="text-sm text-gray-400">&copy; KAMOL GROUP. 0778936600 Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>
